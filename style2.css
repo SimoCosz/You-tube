@@ -6,10 +6,14 @@
   .menu-item{
     flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
+    font-size: 10px;
   }
 
-  .display-none{
+  .icon{
+    align-items: center;
+  }
+
+  .ghost{
     display: none;
   }
 }
