@@ -26,7 +26,6 @@ header{
 
 main{
   display: flex;
-  border: 2px solid black;
   flex-grow: 1;
 }
 
