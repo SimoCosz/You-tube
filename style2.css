@@ -1,5 +1,5 @@
 /* MEDIA SIDE-BAR */
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 801px) and (max-width: 1330px){
   .side-bar{
     width: auto;
   }
@@ -16,6 +16,13 @@
     align-items: center;
   }
   .ghost{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .side-bar{
     display: none;
   }
 }
@@ -43,7 +50,7 @@
     flex-wrap: wrap;
   }
   .play-list-item{
-    width: 42%;
+    width: 48%;
   }
 }
 
@@ -54,4 +61,12 @@
   .play-list-item{
     width: 100%;
   }
+  .search input{
+    display: none;
+  }
+  .search-tools{
+    width: 200px;
+  }
+
+
 }
