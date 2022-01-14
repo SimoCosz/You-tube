@@ -2,6 +2,11 @@
   .side-bar{
     width: auto;
   }
+
+  .widget{
+    border: none;
+    padding: 0;
+  }
   
   .menu-item{
     flex-direction: column;
